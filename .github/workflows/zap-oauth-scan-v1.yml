@@ -1,3 +1,6 @@
+name: ZAP Training 
+on:
+  workflow_dispatch
 jobs:
   zap_oauth_scan:
     runs-on: ubuntu-latest
